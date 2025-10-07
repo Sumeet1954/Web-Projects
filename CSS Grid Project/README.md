@@ -1,4 +1,4 @@
-# Web-Projects
+# CSS Grid Project
 What I Done In IT :
 - Implement Complete Grid Functionality
 - Use the Video tag
