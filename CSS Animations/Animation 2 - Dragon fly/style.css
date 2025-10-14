@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #182189;
+}
+#dragon{
+    height: 100%;
+    width: 100%;
+    background-image: url(assets/toothless.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.dragon-img{
+    top: -40%;
+    right: -40%;
+    rotate: 233deg;
+    position: absolute;
+    animation-name: dragon-fly;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes dragon-fly{
+    0%{
+        top: 0%;
+        right: 0%;
+        width: 10%;
+        height: 10%;
+    }
+    /* 50%{
+        top: 50%;
+        bottom: 50%;
+        rotate: 360deg;
+    } */
+    100%{
+        top:100%;
+        right: 100%;
+        width: 100%;
+        height: 100%;
+    }
+}
